@@ -43,7 +43,7 @@ section {
 	padding: 20px;
 	margin: 20px;
 	background: white;
-	width: 55%;
+	width: 45%;
 	float: left;
 	border-radius: 15px;
 	position: relative;
@@ -68,6 +68,11 @@ footer {
  	 color: #333;
 	background: #ccc;
 	font-size: 12px;
+	border-top: 5px;
+	border-top-style: solid;
+	border-top-color: #006644;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 
 }
 
