@@ -4,7 +4,22 @@
 h1,h2,h3,h4 {
 	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 	color: #4aaaa5;
-	}
+ 	 font-weight: normal;
+ 	 font-style: normal;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1em; }
+h5 { font-size: 0.8em; }
+h6 { font-size: 0.7em; }
+
+a {
+	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+	 font-weight: normal;
+ 	 font-style: normal;
+}
+
 
 * {
   box-sizing: border-box;
@@ -29,10 +44,10 @@ header {
 }
 
 nav {
-  padding: 40px;
+  padding: 75px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  margin-top: 20px;
+  margin-top: 25px;
   color: #333;
   font-size: 30px; 
   float: right;
@@ -106,9 +121,10 @@ footer {
 	border-style: solid;
 	border-color: grey;
 	border-width: 1px;
-	padding: 13px;
+	padding: 10px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 }
 
 .headerbox {
