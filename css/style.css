@@ -148,6 +148,21 @@ div#wrapper {
 	text-align: left;
 }
 
-footer.footer {
- 
+
+div#boxleft {
+	float: left;
+	height: 200px;
+	width: 200px;
+	background-color:  #adbad4;
+	padding: 20px;
+	margin: 20px;
+}
+
+div#boxright {
+	float: right;
+	height: 200px;
+	width: 200px;
+	background-color:  #adbad4;
+	padding: 20px;
+	margin: 20px;
 }
